@@ -94,8 +94,11 @@ Modify `linkedin_followers_complete.py` with your credentials:
 ```python
 COOKIE = 'your_cookie_value_here'
 CSRF_TOKEN = 'your_csrf_token_here'
+COMPANY_ID = "your_company_id_here"  # e.g., "11799605"
 TOTAL_FOLLOWERS = 2417  # Adjust to your actual follower count
 ```
+
+**Important:** The script includes validation to ensure all required values are configured before execution.
 
 ## Usage
 
